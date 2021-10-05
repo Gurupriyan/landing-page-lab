@@ -1,1 +1,35 @@
+main{
+    margin:auto;
+    border: 1px solid black;
+    background-color: yellow; 
 
+}
+
+body {
+    border: 1px;
+    background-color: purple;
+}
+.box1{
+    display: inline-block;
+    border: 1px solid black;
+    background-color: red;
+
+} 
+
+.box2{
+    float: auto;
+    display: inline-block;
+    border: 1px solid black;
+    background-color: white;
+
+} 
+
+
+
+.box3{
+    float: left;
+    display: inline-block;
+    border: 1px solid black;
+    background-color: green;
+
+} 
