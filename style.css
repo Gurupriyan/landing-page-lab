@@ -3,33 +3,36 @@ main{
     border: 1px solid black;
     background-color: yellow; 
 
-}
-
 body {
-    border: 1px;
-    background-color: purple;
+    margin: auto;
+    padding: 50px;
+    background-color: rosybrown;
 }
+
+main{
+    border: 1px solid black;
+    background-color: yellow;
+    width: 1000px;
+    height: 500;
+    box-align: center
+}
+
 .box1{
-    display: inline-block;
-    border: 1px solid black;
-    background-color: red;
-
-} 
-
+    display: block;
+    width: auto;
+    height: auto;
+    background-color:  lavender;
+    text-align: center;
+}
 .box2{
-    float: auto;
+    float: center;
     display: inline-block;
     border: 1px solid black;
-    background-color: white;
-
-} 
-
-
-
+    background-color: blue;
+}
 .box3{
     float: left;
     display: inline-block;
     border: 1px solid black;
     background-color: green;
-
-} 
+}
