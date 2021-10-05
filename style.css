@@ -1,10 +1,34 @@
-* {
-    box-sizing: border-box
-}
+
 body {
-    background-color: red;
+    margin: auto;
+    padding: 50px;
+    background-color: rosybrown;
 }
- section {
-     width: 300px;
-  height: 100px;
- }
+
+main{
+    border: 1px solid black;
+    background-color: yellow;
+    width: 1000px;
+    height: 500;
+    box-align: center
+}
+
+.box1{
+    display: block;
+    width: auto;
+    height: auto;
+    background-color:  lavender;
+    text-align: center;
+}
+.box2{
+    float: center;
+    display: inline-block;
+    border: 1px solid black;
+    background-color: blue;
+}
+.box3{
+    float: left;
+    display: inline-block;
+    border: 1px solid black;
+    background-color: green;
+}
